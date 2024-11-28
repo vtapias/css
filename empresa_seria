@@ -13,13 +13,13 @@ table {
 
 /* Encabezados */
 th {
-  background-color: #004080; /* Azul corporativo */
+  background-color: #9c1d1d; /* Rojo intenso */
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
   padding: 12px;
   text-align: left;
-  border-bottom: 2px solid #003366;
+  border-bottom: 2px solid #8a1616;
 }
 
 /* Celdas */
@@ -31,7 +31,7 @@ td {
 
 /* Colores alternos para filas */
 tr:nth-child(even) {
-  background-color: #f9f9f9; /* Gris claro */
+  background-color: #fbe3e3; /* Rosa claro */
 }
 
 tr:nth-child(odd) {
@@ -40,7 +40,7 @@ tr:nth-child(odd) {
 
 /* Resaltar fila al pasar el cursor */
 tr:hover {
-  background-color: #f2f2f2; /* Gris más oscuro */
+  background-color: #f1c2c2; /* Rosa más oscuro */
 }
 
 /* Bordes y espacio extra en la tabla */
@@ -55,12 +55,12 @@ table th:last-child, table td:last-child {
 td.numeric {
   text-align: right;
   font-weight: bold;
-  color: #004080;
+  color: #9c1d1d; /* Rojo intenso */
 }
 
 /* Pie de tabla (opcional) */
 tfoot td {
-  background-color: #f2f2f2;
+  background-color: #f9d1d1;
   color: #555;
   font-weight: bold;
   border-top: 2px solid #e0e0e0;
@@ -79,3 +79,4 @@ table caption {
 
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
