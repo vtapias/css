@@ -1,0 +1,81 @@
+/* Tabla base */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #ffffff;
+  margin: 20px 0;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezados */
+th {
+  background-color: #004080; /* Azul corporativo */
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #003366;
+}
+
+/* Celdas */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+/* Colores alternos para filas */
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Gris claro */
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Resaltar fila al pasar el cursor */
+tr:hover {
+  background-color: #f2f2f2; /* Gris más oscuro */
+}
+
+/* Bordes y espacio extra en la tabla */
+table th, table td {
+  border-right: 1px solid #e0e0e0;
+}
+table th:last-child, table td:last-child {
+  border-right: none;
+}
+
+/* Resaltar números importantes */
+td.numeric {
+  text-align: right;
+  font-weight: bold;
+  color: #004080;
+}
+
+/* Pie de tabla (opcional) */
+tfoot td {
+  background-color: #f2f2f2;
+  color: #555;
+  font-weight: bold;
+  border-top: 2px solid #e0e0e0;
+  text-align: right;
+  padding: 10px;
+}
+
+/* Título de tabla (si lo deseas agregar manualmente en HTML) */
+table caption {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
